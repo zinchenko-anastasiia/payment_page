@@ -1,0 +1,37 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+
+  &:focus {
+    border-color: #028837;
+  }
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error-text {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}

@@ -1,0 +1,9 @@
+@use "utils/reset.scss" as *;
+@use "./components/Divider.scss" as *;
+@use "./components/Button.scss" as *;
+@use "./components/InputField.scss" as *;
+@use "./pages/MainPage.scss" as *;
+
+body {
+  font-family: "Inter", sans-serif;
+}
