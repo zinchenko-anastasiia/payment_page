@@ -15,4 +15,5 @@
   align-items: flex-start;
   justify-content: center;
   gap: 32px;
-} /*# sourceMappingURL=MainPage.css.map */
+  flex-wrap: wrap;
+}/*# sourceMappingURL=MainPage.css.map */
