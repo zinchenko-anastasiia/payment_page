@@ -1,37 +1,46 @@
+@use "../utils/vars.scss" as *;
+
 .input-field {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 16px;
 }
 
 .input-label {
-  font-size: 14px;
   font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #{$text-secondary};
   margin-bottom: 4px;
-  color: #333;
 }
 
 .input-box {
   width: 100%;
-  padding: 10px;
+  padding: 9px 11px;
   font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  line-height: 24px;
+  border: 1px solid #{$textfield-default};
+  border-radius: 6px;
   outline: none;
   transition: border 0.2s ease-in-out;
+  box-shadow: 0px 2px 4px -2px #{$shadow};
 
   &:focus {
-    border-color: #028837;
+    border-color: #{$text-secondary};
+  }
+
+  &::placeholder {
+    color: #{$text-secondary};
+    font-size: 16px;
   }
 }
 
 .input-error {
-  border-color: red;
+  border-color: #{$error};
 }
 
 .error-text {
   font-size: 12px;
-  color: red;
+  color: #{$error};
   margin-top: 4px;
 }

@@ -1,0 +1,17 @@
+.snackbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #028837;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+}
+
+.snackbar p {
+  margin: 0;
+} /*# sourceMappingURL=Snackbar.css.map */

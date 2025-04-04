@@ -1,0 +1,45 @@
+.payment-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.payment-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-title__headline {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #363a43;
+}
+
+.payment-title__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #363a43;
+}
+
+.payment-content {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-warning {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666c7b;
+  margin-top: 8px;
+  border: 1px solid #e4e6ec;
+  padding: 11px 15px;
+  border-radius: 8px;
+}
+.payment-warning strong {
+  font-weight: 600;
+} /*# sourceMappingURL=PaymentSection.css.map */

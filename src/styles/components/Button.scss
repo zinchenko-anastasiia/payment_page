@@ -1,11 +1,10 @@
 @use "../utils/vars.scss" as *;
 
-@use "../utils/vars.scss" as *;
-
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px; // Відстань між текстом і спінером
   padding: 12px 24px;
   font-weight: 600;
   font-size: 16px;
@@ -16,6 +15,7 @@
     background-color 80ms ease-in,
     transform 80ms ease-in;
   border: none;
+  position: relative;
 
   &--primary {
     background-color: $button-primary;
@@ -58,15 +58,24 @@
       justify-content: center;
     }
   }
-}
 
-.spinner {
-  width: 16px;
-  height: 16px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-top-color: #fff;
-  border-radius: 50%;
-  animation: spin 0.6s linear infinite;
+  .button__text {
+    transition: color 120ms ease-out;
+  }
+
+  .spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    display: none;
+  }
+
+  &.button--loading .spinner {
+    display: inline-block;
+  }
 }
 
 @keyframes spin {

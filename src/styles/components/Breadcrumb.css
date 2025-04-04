@@ -1,0 +1,12 @@
+.breadcrumbs {
+  display: flex;
+  margin-left: -25px;
+  gap: 1px;
+}
+
+.breadcrumbs-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #363a43;
+} /*# sourceMappingURL=Breadcrumb.css.map */

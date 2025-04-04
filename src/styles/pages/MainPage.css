@@ -1,143 +1,18 @@
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
   width: 100%;
-  max-width: 1200px;
+  max-width: 872px;
   margin: 0 auto;
-  gap: 32px;
 }
 
-.payment-header {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-
-.payment-form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 24px;
-}
-
-.breadcrumbs-text {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 40px;
-  color: #363a43;
-}
-
-.payment-title {
-  display: flex;
-  flex-direction: column;
-}
-
-.payment-title__headline {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
-  color: #363a43;
-}
-
-.payment-title__subtitle {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #363a43;
-}
-
-.payment-content {
-  width: 420px;
-  display: flex;
-  flex-direction: column;
-}
-
-.payment-warning {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #666c7b;
-  margin-top: 8px;
-}
-.payment-warning strong {
-  font-weight: 600;
-}
-
-.payment-inputs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.payment-input-group {
+.payment-container {
   display: flex;
   flex-direction: row;
-  gap: 8px;
-}
-
-.order-info {
-  width: 420px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f7f7f9;
-  padding: 32px 32px 40px 32px;
-  border-radius: 8px;
-}
-
-.order-info-content {
-  margin-top: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.order-title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #363a43;
-}
-
-.order-description {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  color: #363a43;
-}
-
-.order-product-name {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #363a43;
-}
-
-.order-product-type {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #797e8b;
-}
-
-.order-cost {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.order-cost-text {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #363a43;
-}
-
-.order-cost-subscription {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #363a43;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
 } /*# sourceMappingURL=MainPage.css.map */

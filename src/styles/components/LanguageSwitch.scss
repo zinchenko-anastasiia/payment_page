@@ -1,0 +1,25 @@
+@use "../utils/vars.scss" as *;
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+  height: 56px;
+
+  .active {
+    color: $text-primary;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .inactive {
+    color: $text-tertiary;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

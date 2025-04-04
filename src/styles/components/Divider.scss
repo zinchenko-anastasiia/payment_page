@@ -11,7 +11,7 @@
     content: "";
     padding: 1px;
     background-color: #{$divider};
-    margin: 16px;
+    margin: 16px 0;
   }
 }
 
@@ -27,4 +27,5 @@
   font-size: 14px;
   line-height: 24px;
   color: #{$text-secondary};
+  margin: 0 16px;
 }

@@ -1,0 +1,19 @@
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+}
+
+.payment-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+  margin-top: 11px;
+}
+
+.payment-input-group {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

@@ -9,7 +9,7 @@
   content: "";
   padding: 1px;
   background-color: #e4e6ec;
-  margin: 16px;
+  margin: 16px 0;
 }
 
 .divider-line {
@@ -24,4 +24,5 @@
   font-size: 14px;
   line-height: 24px;
   color: #666c7b;
+  margin: 0 16px;
 } /*# sourceMappingURL=Divider.css.map */

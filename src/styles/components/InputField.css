@@ -2,35 +2,45 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 16px;
 }
 
 .input-label {
-  font-size: 14px;
   font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666c7b;
   margin-bottom: 4px;
-  color: #333;
 }
 
 .input-box {
   width: 100%;
-  padding: 10px;
+  padding: 9px 11px;
   font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  line-height: 24px;
+  border: 1px solid #c7c9d1;
+  border-radius: 6px;
   outline: none;
   transition: border 0.2s ease-in-out;
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1215686275);
 }
 .input-box:focus {
-  border-color: #028837;
+  border-color: #666c7b;
+}
+.input-box::-moz-placeholder {
+  color: #666c7b;
+  font-size: 16px;
+}
+.input-box::placeholder {
+  color: #666c7b;
+  font-size: 16px;
 }
 
 .input-error {
-  border-color: red;
+  border-color: #ff4d4f;
 }
 
 .error-text {
   font-size: 12px;
-  color: red;
+  color: #ff4d4f;
   margin-top: 4px;
 } /*# sourceMappingURL=InputField.css.map */

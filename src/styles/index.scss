@@ -2,6 +2,13 @@
 @use "./components/Divider.scss" as *;
 @use "./components/Button.scss" as *;
 @use "./components/InputField.scss" as *;
+@use "./components/LanguageSwitch.scss" as *;
+@use "./components/Breadcrumb.scss" as *;
+@use "./components/OrderInfo.scss" as *;
+@use "./components/PaymentSection.scss" as *;
+@use "./components/Snackbar.scss" as *;
+@use "./components/Footer.scss" as *;
+@use "./components/PaymentForm.scss" as *;
 @use "./pages/MainPage.scss" as *;
 
 body {

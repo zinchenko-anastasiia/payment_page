@@ -1,0 +1,21 @@
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+  height: 56px;
+}
+.language-switch .active {
+  color: #363a43;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.language-switch .inactive {
+  color: #b0b4be;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+} /*# sourceMappingURL=LanguageSwitch.css.map */

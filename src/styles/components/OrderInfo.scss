@@ -1,0 +1,65 @@
+@use "../utils/vars.scss" as *;
+
+.order-info {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  background-color: #{$grey-block};
+  padding: 32px 32px 40px 32px;
+  border-radius: 8px;
+}
+
+.order-info-content {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #{$text-primary};
+}
+
+.order-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #{$text-primary};
+}
+
+.order-product-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #{$text-primary};
+}
+
+.order-product-type {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #{$text};
+  margin: 2px 0;
+}
+
+.order-cost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.order-cost-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #{$text-primary};
+}
+
+.order-cost-subscription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #{$text-primary};
+}
