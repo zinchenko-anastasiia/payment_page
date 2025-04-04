@@ -5,7 +5,8 @@ const useSubmit = (
   validateField,
   errors,
   setIsSubmitting,
-  setSnackbarVisible
+  setSnackbarVisible,
+  setFormData
 ) => {
   const isValidForm = useMemo(
     () =>
@@ -29,10 +30,22 @@ const useSubmit = (
           setIsSubmitting(false);
           setSnackbarVisible(true);
           setTimeout(() => setSnackbarVisible(false), 3000);
+          setFormData({
+            cardNumber: "",
+            expirationDate: "",
+            cvc: ""
+          });
         }, 2000);
       }
     },
-    [formData, isValidForm, setIsSubmitting, setSnackbarVisible, validateField]
+    [
+      formData,
+      isValidForm,
+      setFormData,
+      setIsSubmitting,
+      setSnackbarVisible,
+      validateField
+    ]
   );
 };
 

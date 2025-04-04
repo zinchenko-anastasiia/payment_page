@@ -25,7 +25,8 @@ const PaymentForm = () => {
     validateField,
     errors,
     setIsSubmitting,
-    setSnackbarVisible
+    setSnackbarVisible,
+    setFormData
   );
 
   const handleChange = (name, e) => {
